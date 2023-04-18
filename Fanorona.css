@@ -1,0 +1,108 @@
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid rgb(139,133,133);
+  transform: translate(-50%,-50%);
+  box-shadow: 0 0 50px rgba(0,0,0,0.1);
+  z-index: 1;
+}
+.fanorona {
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+  background-image:url('fanorona1.jpg');
+  border-image-repeat: no-repeat;
+  background-size: 100%;
+  object-fit: cover;
+}
+body{
+  background:linear-gradient(to left top,#A73D39,#EEB36B,#EBC1B3) no-repeat fixed center/cover;
+  /*background-image: url("saina1.jpg");
+  background-repeat: no-repeat;*/
+  
+}
+
+#premier{
+  position: absolute;
+  top: 1%;
+  left: 0%;
+}
+#deuxieme{
+  position: absolute;
+  top: 1%;
+  left: 43.8%;
+}
+#troisieme{
+  position: absolute;
+  top: 1%;
+  left: 88%;
+}
+#quatrieme{
+  position: absolute;
+  top: 1%;
+  left: 0%;
+}
+#cinquieme{
+  position: absolute;
+  top: 1%;
+  left: 43.8%;
+}
+#sixieme{
+  position: absolute;
+  top: 1%;
+  left: 88%;
+}
+#centre-gauche{
+  position: absolute;
+  top: 44%;
+  left: 0%;
+}
+#centre{
+  position: absolute;
+  top: 44%;
+  left: 43.8%;
+}
+#centre-droite{
+  position: absolute;
+  top: 45%;
+  left: 88%;
+}
+.pos{
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* croix cercle */
+.img2::before,
+.img1::before,
+.img2-hover::before,
+.img1-hover::before {
+  content:url("pj1.jpg");
+  /*font-size:100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color:rgb(18, 110, 133);*/
+  
+}
+
+.img2::before,
+.img2-hover::before {
+  content: "pj2.jpg";
+  /*color:rgb(81, 0, 128);*/
+}
+
+.img2-hover::before,
+.img1-hover::before {
+  opacity: 0.3;
+  filter: grayscale(100%);
+}

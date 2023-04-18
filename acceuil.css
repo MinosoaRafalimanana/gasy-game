@@ -1,0 +1,40 @@
+h1{
+    position: center;
+    font-size: 40px;
+    margin-top: 10%;
+    margin-left: 40%;
+}
+body{
+    /*background: url(saina1.jpg) no-repeat fixed center/cover;*/
+    background:linear-gradient(to left top,#A73D39,#EEB36B,#EBC1B3) no-repeat fixed center/cover;
+    background-repeat: no-repeat;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    margin-top: 10%;
+    margin-left: 45%;
+    background-color:#EEB36B ;
+    color:black;
+}
+.btn:active{
+    transform: scale(1.5);
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    transition: 1s;
+   /* color: var(--color1)*/;
+}
+/*a{
+    text-decoration: none;
+    color:white;
+    padding: 25px;
+    background-color:violet;
+    border-radius: 5px;
+  }
+  a:hover{
+    color: rgb(55, 0, 255);
+    
+  }*/
+  
